@@ -3,13 +3,11 @@
 import { useState, FormEvent } from "react";
 import { Winrar_KeyGen } from "@/utils/generatekey";
 import { saveAs } from "file-saver";
-import { FiDownload, FiMoon, FiSun } from "react-icons/fi";
-import { useTheme } from "next-themes";
+import { FiDownload } from "react-icons/fi";
 
 export default function GenerateKey() {
   const [registerName, setRegisterName] = useState("Winrar");
   const [licenseType, setLicenseType] = useState("Single PC");
-  const { theme, setTheme } = useTheme();
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
@@ -26,7 +24,6 @@ export default function GenerateKey() {
         <div className="flex justify-between items-center mb-6 pb-4 border-b border-gray-700">
           <h1 className="text-3xl font-bold text-white">Winrar Keygen</h1>
         </div>
-
         <form className="space-y-6" onSubmit={handleSubmit}>
           <div>
             <label

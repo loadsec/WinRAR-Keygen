@@ -32,10 +32,6 @@ function GF_add(a, b) {
     return (a ^ b);
 }
 
-function GF_sub(a, b) {
-    return (a ^ b);
-}
-
 function GF_mul(a, b) {
 
     function GF215_mul(s1, s2) {
@@ -189,7 +185,7 @@ function SHA1(msg) {
     var A, B, C, D, E;
     var temp;
     var msg_len = msg.length;
-    var word_array = new Array();
+    var word_array = [];
     for (i = 0; i < msg_len - 3; i += 4) {
         j = msg.charCodeAt(i) << 24 | msg.charCodeAt(i + 1) << 16 | msg.charCodeAt(i + 2) << 8 | msg.charCodeAt(i + 3);
         word_array.push(j);
