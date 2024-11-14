@@ -6,7 +6,7 @@ import { saveAs } from "file-saver";
 import { FiDownload } from "react-icons/fi";
 
 export default function GenerateKey() {
-  const [registerName, setRegisterName] = useState("Winrar");
+  const [registerName, setRegisterName] = useState("WinRAR");
   const [licenseType, setLicenseType] = useState("Single PC");
 
   const handleSubmit = (e: FormEvent) => {
