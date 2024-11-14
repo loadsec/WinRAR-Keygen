@@ -15,8 +15,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Winrar Keygen",
-  description: "A Winrar Keygen Generator",
+  title: "WinRAR Keygen",
+  description: "A WinRAR Keygen Generator",
 };
 
 export default function RootLayout({
