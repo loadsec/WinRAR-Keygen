@@ -19,10 +19,12 @@ export default function GenerateKey() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 flex items-center justify-center p-4 flex-col">
-      <div className="bg-white/10 backdrop-blur-lg rounded-xl p-8 w-full max-w-md shadow-xl">
-        <div className="flex justify-between items-center mb-6 pb-4 border-b border-gray-700">
-          <h1 className="text-3xl font-bold text-white">WinRAR Keygen</h1>
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 flex items-center justify-center p-2 sm:p-4 flex-col">
+      <div className="bg-white/10 backdrop-blur-lg rounded-xl p-4 sm:p-8 w-full max-w-md shadow-xl sm:mx-4">
+        <div className="flex justify-between items-center mb-4 sm:mb-6 pb-4 border-b border-gray-700">
+          <h1 className="text-2xl sm:text-3xl font-bold text-white">
+            WinRAR Keygen
+          </h1>
         </div>
         <form className="space-y-6" onSubmit={handleSubmit}>
           <div>
@@ -94,13 +96,13 @@ export default function GenerateKey() {
         </form>
       </div>
 
-      <div className="flex justify-center items-center flex-col w-full max-w-md text-center mt-8">
-        <p className="text-gray-400 text-sm">
+      <div className="flex justify-center items-center flex-col w-full md:max-w-md text-center mt-4 sm:mt-8 md:px-4">
+        <p className="text-gray-400 text-xs sm:text-sm">
           After generating the license, you can use it to activate WinRAR. Make
           sure to put the license in this directory:
         </p>
 
-        <pre className="text-gray-400 text-sm bg-gray-700/50 p-2 rounded-lg mt-2">
+        <pre className="text-gray-400 text-xs sm:text-xs bg-gray-700/50 p-2 rounded-lg mt-2 w-full overflow-x-auto">
           C:\Users\<i className="text-red-500">YourUsername</i>
           \AppData\Roaming\WinRAR
         </pre>
