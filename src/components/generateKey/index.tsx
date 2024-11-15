@@ -103,8 +103,7 @@ export default function GenerateKey() {
         </p>
 
         <pre className="text-gray-400 text-xs sm:text-xs bg-gray-700/50 p-2 rounded-lg mt-2 w-full overflow-x-auto">
-          C:\Users\<i className="text-red-500">YourUsername</i>
-          \AppData\Roaming\WinRAR
+          C:\Program Files\<i className="text-red-500">WinRAR</i>
         </pre>
       </div>
     </div>
