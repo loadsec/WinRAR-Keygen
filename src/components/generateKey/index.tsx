@@ -98,12 +98,18 @@ export default function GenerateKey() {
 
       <div className="flex justify-center items-center flex-col w-full md:max-w-md text-center mt-4 sm:mt-8 md:px-4">
         <p className="text-gray-400 text-xs sm:text-sm">
-          After generating the license, you can use it to activate WinRAR. Make
-          sure to put the license in this directory:
+          After generating the license, you can use it to activate WinRAR. 
+          Make sure to place the license in one of these directories:
         </p>
 
         <pre className="text-gray-400 text-xs sm:text-xs bg-gray-700/50 p-2 rounded-lg mt-2 w-full overflow-x-auto">
           C:\Program Files\<i className="text-red-500">WinRAR</i>
+        </pre>
+        <p className="text-gray-400 text-xs sm:text-sm">
+          or
+        </p>
+         <pre className="text-gray-400 text-xs sm:text-xs bg-gray-700/50 p-2 rounded-lg mt-2 w-full overflow-x-auto">
+          <i className="text-red-500">%appdata%</i>/WinRAR
         </pre>
       </div>
     </div>
